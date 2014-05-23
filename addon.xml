@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.json-cec" name="JSON-CEC" version="0.0.1" provider-name="joshjowen">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="script.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<language></language>
+		<summary lang="en">Send CEC commands from JSON</summary>
+		<description lang="en">Call this addon from the xbmc json-rpc to run CEC commands through an appropriate adapter.
+accepted commands are 'activate', 'toggle' and 'standby'. Example:
+{"jsonrpc":"2.0","method":"Addons.ExecuteAddon",
+"params":{"addonid":"script.json-cec",
+"params":{"command":"activate"}},"id":1}</description>
+		<platform>all</platform>
+		<website></website>
+		<source>https://github.com/joshjowen</source>
+		<forum></forum>
+		<email></email>    
+	</extension>
+</addon>
