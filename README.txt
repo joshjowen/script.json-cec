@@ -10,3 +10,13 @@ Accepted commands are:
 example JSON request:
 
 http://localhost:8080/jsonrpc?request={"jsonrpc":"2.0","method":"Addons.ExecuteAddon","params":{"addonid":"script.json-cec","params":{"command":"activate"}},"id":1}
+
+Installation
+
+Method Zip
+
+Download the project as zip and rename it as script.json-cec.zip and import it in Kodi
+
+Method copying
+
+Clone the project and copy it to kodi's addons directory, example: ~/.kodi/addons/
