@@ -7,6 +7,16 @@ Accepted commands are:
 'standby' - Put playing device on standby via a CEC peripheral
 'toggle' - Toggle state of playing device via a CEC peripheral
 
-example JSON request:
+Example JSON request:
 
 http://localhost:8080/jsonrpc?request={"jsonrpc":"2.0","method":"Addons.ExecuteAddon","params":{"addonid":"script.json-cec","params":{"command":"activate"}},"id":1}
+
+Installation
+
+Method Zip
+
+Download the project as Zip and rename it as script.json-cec.zip. Use the GUI interface to install it in Kodi.
+
+Method Copying
+
+Clone the project and copy it to Kodi's addons directory, example: ~/.kodi/addons/
