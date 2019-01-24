@@ -6,6 +6,7 @@ Accepted commands are:
 'activate' - Wake up playing device via a CEC peripheral
 'standby' - Put playing device on standby via a CEC peripheral
 'toggle' - Toggle state of playing device via a CEC peripheral
+'stop_and_standby' - Stop any playback and place the CEC peripheral on standby
 
 Example JSON request:
 

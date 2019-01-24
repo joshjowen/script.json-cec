@@ -1,7 +1,7 @@
 # Send HDMI CEC commands through Kodi's JSON-RPC.
 
 
-Kodi addon allowing HDMI-CEC control via Kodi's JSON-RPC. 
+Kodi addon allowing HDMI-CEC control via Kodi's JSON-RPC.
 
 Requires at least XBMC v13 Gotham and currently supports latest version [Kodi v17 Krypton](https://kodi.tv/kodi-v17-1-krypton).
 
@@ -23,6 +23,7 @@ Clone the project and copy it to Kodi's addons directory, example: ~/.kodi/addon
 * 'activate' - Wake up playing device via a CEC peripheral
 * 'standby' - Put playing device on standby via a CEC peripheral
 * 'toggle' - Toggle state of playing device via a CEC peripheral
+* 'stop_and_standby' - Stop any playback and place the CEC peripheral on standby
 
 #### Example JSON request:
 ```
