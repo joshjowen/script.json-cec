@@ -2,10 +2,11 @@ import xbmc
 import urlparse
 import sys
 import time
+import os
 
 try:
         params = urlparse.parse_qs('&'.join(sys.argv[1:]))
-        command = params.get('command',None)
+        command = params.get('command',None)[0].split(" ")
 except:
         command = None
 
@@ -23,3 +24,7 @@ elif command and command[0] == 'stop_and_standby':
                 xbmc.executebuiltin("PlayerControl(Stop)")
                 time.sleep(3)
         xbmc.executebuiltin('CECStandby')
+
+elif command[0] == 'cec_client':
+        cec_command = "echo '{}' | cec-client -s".format(" ".join(command[1:])
+        os.system(cec_command)
