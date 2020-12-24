@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.json-cec" name="JSON-CEC" version="0.0.1" provider-name="joshjowen">
+<addon id="script.json-cec" name="JSON-CEC" version="0.0.3" provider-name="jantman">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -15,9 +15,9 @@ accepted commands are 'activate', 'toggle' and 'standby'. Example:
 "params":{"addonid":"script.json-cec",
 "params":{"command":"activate"}},"id":1}</description>
 		<platform>all</platform>
-		<website></website>
-		<source>https://github.com/joshjowen</source>
+		<website>https://github.com/jantman/script.json-cec</website>
+		<source>https://github.com/jantman/script.json-cec</source>
 		<forum></forum>
-		<email></email>    
+		<email></email>
 	</extension>
 </addon>

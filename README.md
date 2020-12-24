@@ -3,20 +3,13 @@
 
 Kodi addon allowing HDMI-CEC control via Kodi's JSON-RPC.
 
-Requires at least XBMC v13 Gotham and currently supports latest version [Kodi v17 Krypton](https://kodi.tv/kodi-v17-1-krypton).
+Modified from [upstream](https://github.com/joshjowen/script.json-cec) to work with Kodi v18 (Leia).
 
 
 ## Installation
 
-#### Zip
-
-Download the project as Zip and rename it as script.json-cec.zip. Use the GUI interface to install it in Kodi.
-
-#### Copying
-
-Clone the project and copy it to Kodi's addons directory, example: ~/.kodi/addons/
-
-
+1. ``cd ~/.kodi/addons``
+2. ``git clone https://github.com/jantman/script.json-cec.git``
 
 ## Accepted commands
 
