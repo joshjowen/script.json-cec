@@ -1,10 +1,10 @@
 import xbmc
-import urlparse
+import urllib.parse
 import sys
 import time
 
 try:
-        params = urlparse.parse_qs('&'.join(sys.argv[1:]))
+        params = urllib.parse.parse_qs('&'.join(sys.argv[1:]))
         command = params.get('command',None)
 except:
         command = None
